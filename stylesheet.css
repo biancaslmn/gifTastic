@@ -1,0 +1,14 @@
+.container{
+    background-color: rgb(203, 203, 235);
+    text-align: center;
+}
+
+h1, label {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+body{
+    background-color: lightgrey;
+}

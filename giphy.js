@@ -17,7 +17,8 @@ $(document).ready(function () {
         });
     };
     displayTopicInfo();
-    //Display data in button
+
+    //Display data in buttons
     function makeButtons() {
 
         $("#buttons-view").empty();
@@ -38,5 +39,22 @@ $(document).ready(function () {
         
     }
     makeButtons();
+
+    $("#add-topic").on("click", function(event) {
+        event.preventDefault();
+
+        var movie = $("#topic-input").val().trim();
+
+       topics.push(topic);
+        console.log(topics);
+
+        makeButtons();
+    });
+
+
+      $(document).on("click", ".topic", displayTopicInfo);
+
+      makeButtons();
+
 });
 
