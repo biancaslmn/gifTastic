@@ -3,45 +3,44 @@
 
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
   <title>Giphy</title>
-  <style type="text/css">
-    button,
-    div,
-    form,
-    input {
-      margin: 10px;
-    }
-  </style>
+
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
 </head>
 
 <body>
+        <div class="container" style="background: transparent;">
+                <h1 class="text-center">Room of Desserts</h1>
+                <br>
+                <br>
+                <div id="dessert-buttons"> </div>
+                <br>
+                <br>
+                <div class="container" id="btn" style="background: transparent;">
+                    <form id="dessert-form">
+                        <label id="add" for="dessert-input">Please enter your favortie desert</label>
+                        <input type="text" class="form-control" id="dessert-input">
+                        <br>
+                        <br>
+                    </form>
+                    <button onclick="submitButtonClicked()" type="button" id="add-dessert" class="btn btn-success">Submit</button>
+                    <br>
+                    <br>
+                    <div id="desserts"> </div>
+                </div>
+            </div>
+   
 
-  <div class="container">
-    <h1>Giphy Search</h1>
-
-
-    <!-- Buttons will Get Dumped Here -->
-    <div id="buttons-view"></div>
-
-    <form id="giphy-form">
-      <label for="giphy-input">Give me tea!</label>
-      <input type="text" id="giphy-input"><br>
-
-      <!-- Button triggers new giphy to be added -->
-      <input id="add-giphy" type="submit" value="giphy me tea">
-    </form>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript" src="giphy.js">
-
- 
-
-      
-      </script>
+    <script type="text/javascript" src="giphy.js"> </script>
 </div>
-
-
+</div>
 </body>
-
 </html>
+
+

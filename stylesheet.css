@@ -1,14 +1,52 @@
-.container{
-    background-color: rgb(203, 203, 235);
-    text-align: center;
+
+
+body {
+    background-color: rgb(189, 168, 196);
 }
 
-h1, label {
+h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
     text-align: center;
 }
 
-body{
-    background-color: lightgrey;
+.ratings {
+    color: rgb(62, 126, 126);
+    font-family: avenir;
+    font-size: 18px;
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+}
+
+#add-dessert{
+    background: rgb(62, 126, 126);
+    color: white;
+}
+
+.btn-primary {
+    margin-left: 10px;
+    background: rgb(62, 126, 126);
+    color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .movImage {
+        width: 500px;
+        height: 500px;
+    }
+    body {
+        background-color: lightgrey;
+    }
+}
+
+.form-control {
+    width: 30%;
+}
+
+#add {
+    font-size: 20px;
+    color: white;
 }
