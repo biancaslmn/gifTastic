@@ -1,7 +1,8 @@
 
 
 body {
-    background-color: rgb(189, 168, 196);
+
+    text-align: center;
 }
 
 h1 {
@@ -11,7 +12,7 @@ h1 {
 }
 
 .ratings {
-    color: rgb(62, 126, 126);
+    color: rgb(87, 124, 243);
     font-family: avenir;
     font-size: 18px;
 }
@@ -22,13 +23,13 @@ h1 {
 }
 
 #add-dessert{
-    background: rgb(62, 126, 126);
+    background: rgb(87, 124, 243);
     color: white;
 }
 
 .btn-primary {
     margin-left: 10px;
-    background: rgb(62, 126, 126);
+    background: rgb(87, 124, 243);
     color: white;
 }
 
